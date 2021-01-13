@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
+
 public class TicTacToe {
     static int number;
     static char[][] gameBoard = { { ' ', '|', ' ', '|', ' ' }, { '=', '+', '=', '+', '=' }, { ' ', '|', ' ', '|', ' ' },
@@ -16,6 +18,8 @@ public class TicTacToe {
         do {
             scanner();
         } while (number < 10);
+
+        System.out.println("Thanks You");
 
     }
 
